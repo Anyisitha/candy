@@ -1,0 +1,6 @@
+export { default as anonymos } from './anonymos.webp'
+export { default as back } from './back.webp'
+export { default as gammer } from './gammer.webp'
+export { default as gamming } from './gamming.webp'
+export { default as ninja } from './ninja.webp'
+export { default as panda } from './panda.webp'

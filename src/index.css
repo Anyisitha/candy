@@ -133,6 +133,8 @@ body {
   color: #ffffff;
   border: none;
   height: 60px;
+  cursor: pointer;
+
 }
 
 .start .muneca {

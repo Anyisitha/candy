@@ -1,3 +1,5 @@
+@import "./responsive-movil.css";
+
 body {
   background-image: url("../src/images/fondo.jpg");
   width: 100vw;
@@ -34,17 +36,17 @@ body {
 
 .game {
   width: 600px;
-    height: 600px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 5%;
-    margin-top: 90px;
-    box-shadow: -1px 5px 14px 15px rgb(86 235 186 / 28%);
-    border-radius: 10px;
-    padding: 10px;
-    gap: 5px;
-    background: #14242c;
-    border: 3px solid #34353d;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-top: 90px;
+  box-shadow: -1px 5px 14px 15px rgb(86 235 186 / 28%);
+  border-radius: 10px;
+  padding: 10px;
+  gap: 5px;
+  background: #14242c;
+  border: 3px solid #34353d;
 }
 
 .game:hover {
@@ -247,11 +249,11 @@ body {
   line-height: 0.8;
   text-shadow: 0px 4px 0px rgb(0 0 0 / 67%);
   font-family: var(--tg-heading-font-family);
-    color: #fff;
-    margin-top: 0px;
-    font-weight: 700;
-    line-height: 1.2;
-    text-transform: uppercase;
+  color: #fff;
+  margin-top: 0px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .exit {
@@ -271,4 +273,8 @@ body {
   position: absolute;
   right: 13.6%;
   bottom: -3%;
+}
+
+.App-movile {
+  display: none;
 }
